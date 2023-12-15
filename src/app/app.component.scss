@@ -1,0 +1,113 @@
+body{
+  padding: 2em;
+}
+table {  
+    margin: 0 auto;
+  border-collapse: collapse;
+  width: 233px;
+  // background-color: black;
+//  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+tr{
+    td.first-row{
+        background-color:#646464
+    }
+}
+td {
+  padding: 15px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: 1em;   /* 1em = 16px */
+  background-color: #82696d;
+  color: #ebebeb;
+  font-weight: 100;  
+    transition: opacity .20s ease-in-out;
+   -moz-transition: opacity .20s ease-in-out;
+   -webkit-transition: opacity .20s ease-in-out;
+   
+}
+
+th,
+td {
+   
+   border-bottom: 1px solid #58595B;
+   border-right: 1px solid #58595B;  
+  font-family: 'Open sans';
+  
+  
+}
+
+th {  
+  word-wrap: break-word;
+  border-right:none;
+  background-color: #535353;
+  color: white;
+  text-align: right;
+  font-size: 3.5em;  
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+  font-weight: normal;
+}
+
+td:last-child {
+  border-right: none;
+  background-color: var(--color6);
+  color: white;
+}
+tr:last-child td {
+  border-bottom: none;  
+}
+
+/* 0 key */
+tr:last-child td:first-child{
+  text-align: center;
+}
+
+td:hover, th:hover {
+  opacity: 0.9;
+  cursor:default;
+}
+
+caption {
+  background-color:black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 40px
+}
+.not-implemented {
+  text-align: center;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-implemented span {
+  font-size: 3em;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  td {
+    border: solid 1px black;
+    border-left-width: 0px;
+    border-style: none solid solid none;
+    padding: 10px;
+  }
+  
+  tr:first-child th:first-child { border-top-left-radius: 10px; }
+  tr:first-child th:last-child { border-top-right-radius: 10px; }
+  
+  tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+  tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+  
+  tr:first-child td { border-top-style: solid; }
+  tr td:first-child { border-left-style: solid; }
+
+

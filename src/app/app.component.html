@@ -1,0 +1,34 @@
+<table> 
+    <tr>            
+      <th colspan="4" id="result">{{result()}}</th>    
+    </tr>
+    <tr >
+      <td class="first-row" (click)="reset()">AC</td>
+      <td class="first-row" (click)="plus()">+/-</td>
+      <td class="first-row" (click)="percent()">%</td>
+      <td>÷</td>
+    </tr>
+      <tr>
+      <td (click)="updateNumber(7)">7</td>
+      <td (click)="updateNumber(8)">8</td>
+      <td (click)="updateNumber(9)">9</td>
+      <td (click)="multiply()" >×</td>
+    </tr>
+      <tr>
+      <td (click)="updateNumber(4)">4</td>
+      <td (click)="updateNumber(5)">5</td>
+      <td (click)="updateNumber(6)">6</td>
+      <td (click)="minus()">–</td>
+    </tr>
+      <tr>
+      <td (click)="updateNumber(1)">1</td>
+      <td (click)="updateNumber(2)">2</td>
+      <td (click)="updateNumber(3)">3</td>
+      <td (click)="plus()">+</td>
+    </tr>
+    <tr>
+      <td colspan="2" id="key0" >0</td>    
+      <td >,</td>
+      <td (click)="equal()">=</td>    
+    </tr>
+  </table>
