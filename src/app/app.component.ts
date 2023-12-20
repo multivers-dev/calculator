@@ -16,14 +16,12 @@ export class AppComponent {
     number = signal('0')
 
     operate(signe : string) {
-        let setResultToZero = true
         /*
         * If we have a signe and a number and a lastAction and a result
         * We need to calculate the result before doing the next operation
          */
         if(this.sign() !== '' && this.number() !== '0' && this.lastAction() !== '' && this.result() !== '0') {
             this.equal()
-            setResultToZero = false
         }
         switch (signe) {
             case '+':
@@ -42,9 +40,9 @@ export class AppComponent {
                 break
         }
         this.lastAction.set(this.result())
-        if (setResultToZero) {
-            this.result.set('0')
-        }
+        // if (setResultToZero) {
+        //     //this.result.set('0')
+        // }
         this.number.set('0')
     }
 
@@ -85,7 +83,7 @@ export class AppComponent {
     }
 
     equal() {
-        let result = 0
+        let result = Number(this.result())
         switch (this.sign()) {
             case '+':
                 result = Number(this.lastAction()) + Number(this.number())
