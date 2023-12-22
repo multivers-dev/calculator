@@ -16,7 +16,6 @@ export class AppComponent {
     sign = signal('')
     lastAction = signal('')
     number = signal('0')
-    canClear = signal(false)
 
     operate(selectedSigne : string) {
         /*
