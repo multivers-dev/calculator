@@ -15,7 +15,7 @@ export class AppComponent {
     lastAction = signal('')
     number = signal('0')
 
-    operate(signe : string) {
+    operate(selectedSigne : string) {
         /*
         * If we have a signe and a number and a lastAction and a result
         * We need to calculate the result before doing the next operation
@@ -23,26 +23,8 @@ export class AppComponent {
         if(this.sign() !== '' && this.number() !== '0' && this.lastAction() !== '' && this.result() !== '0') {
             this.equal()
         }
-        switch (signe) {
-            case '+':
-                this.sign.update(() => '+')
-                break
-            case '-':
-                this.sign.update(() => '-')
-                break
-            case '*':
-                this.sign.update(() => '*')
-                break
-            case '/':
-                this.sign.update(() => '/')
-                break
-            default:
-                break
-        }
+        this.sign.update(() => selectedSigne)
         this.lastAction.set(this.result())
-        // if (setResultToZero) {
-        //     //this.result.set('0')
-        // }
         this.number.set('0')
     }
 

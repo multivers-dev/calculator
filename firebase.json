@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "calculator-multivers",
+    "target": "calculator-multivers",
     "public": "dist/calculator/browser",
     "ignore": [
       "firebase.json",

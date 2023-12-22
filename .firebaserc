@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "multivers-site"
-  }
+    "default": "tests"
+  },
+  "targets": {
+    "tests": {
+      "hosting": {
+        "calculator-multivers": [
+          "test-calculator-multivers"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
