@@ -1,19 +1,22 @@
 import {Component, signal, WritableSignal} from '@angular/core';
-import {DecimalPipe, NgIf} from "@angular/common";
+import {DecimalPipe, NgClass, NgIf} from "@angular/common";
 
 @Component({
     standalone: true,
     imports: [
-        NgIf],
+        NgIf,
+        NgClass
+    ],
     selector: 'calculator-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-    result = signal('0')
+    result = signal('')
     sign = signal('')
     lastAction = signal('')
     number = signal('0')
+    canClear = signal(false)
 
     operate(selectedSigne : string) {
         /*
@@ -30,8 +33,10 @@ export class AppComponent {
 
 
     percent() {
-         this.result.update((value) => value = (Number(value) / 100).toString())
-         this.number.update((value) => value = (Number(value) / 100).toString())
+        if (this.number() !== '0') {
+            this.number.update((value) => value = (Number(value) / 100).toString())
+            this.result.update((value) => this.number())
+        }
     }
 
     updateNumber(n: number) {
@@ -87,10 +92,18 @@ export class AppComponent {
     }
 
     reset() {
-        this.result.set('0')
+        this.result.set('')
         this.sign.set('')
         this.lastAction.set('')
         this.number.set('0')
     }
 
+    isActiveOperator(s: string) {
+        return this.sign() === s  && this.number() == '0'? 'active' : '';
+    }
+
+    clear() {
+        this.number.set('0')
+        this.result.set('')
+    }
 }
