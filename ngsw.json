@@ -1,0 +1,129 @@
+{
+  "configVersion": 1,
+  "timestamp": 1703251289586,
+  "index": "https://multivers-dev.github.io/calculator/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://multivers-dev.github.io/calculator/favicon.ico",
+        "https://multivers-dev.github.io/calculator/main-37QYOWZS.js",
+        "https://multivers-dev.github.io/calculator/manifest.webmanifest",
+        "https://multivers-dev.github.io/calculator/polyfills-TMVK3KFA.js",
+        "https://multivers-dev.github.io/calculator/styles-APOZRMRD.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://multivers-dev.github.io/calculator/assets/icons/100.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/1024.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/114.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/120.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/128.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/144.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/152.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/16.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/167.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/180.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/192.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/20.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/256.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/29.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/32.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/40.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/50.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/512.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/57.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/58.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/60.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/64.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/72.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/76.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/80.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/87.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-128x128.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-144x144.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-152x152.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-192x192.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-384x384.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-512x512.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-72x72.png",
+        "https://multivers-dev.github.io/calculator/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://multivers-dev.github.io/calculator/assets/icons/100.png": "50429bcb32fd69912868a821abfd7581175cc615",
+    "https://multivers-dev.github.io/calculator/assets/icons/1024.png": "8f297a61bb850bb379d964ad74bfa5fa8a2e7c2a",
+    "https://multivers-dev.github.io/calculator/assets/icons/114.png": "16b0b52ff27971b888a37a42210ea996660bc592",
+    "https://multivers-dev.github.io/calculator/assets/icons/120.png": "4a4844db23ae9eff0b82ec47607aa2609780d51e",
+    "https://multivers-dev.github.io/calculator/assets/icons/128.png": "d1aba3c2f42958e168cd1169b8dd7de3a8404369",
+    "https://multivers-dev.github.io/calculator/assets/icons/144.png": "5560fcf62a9539626433b45d0e54bc7229d3bcfd",
+    "https://multivers-dev.github.io/calculator/assets/icons/152.png": "525dea153460f81295ad4ec682f6d083c1252560",
+    "https://multivers-dev.github.io/calculator/assets/icons/16.png": "bba425b038381f69137cd03551d4d0b6aa622cbc",
+    "https://multivers-dev.github.io/calculator/assets/icons/167.png": "64357741e98404edb20233a83e44c8bc55149458",
+    "https://multivers-dev.github.io/calculator/assets/icons/180.png": "31ef08220e7f136e726291d1f198bf796269ee11",
+    "https://multivers-dev.github.io/calculator/assets/icons/192.png": "6b6a61c2c6c55b4991b4697eb7edc4e511441803",
+    "https://multivers-dev.github.io/calculator/assets/icons/20.png": "2ab3b714bf3a7cde10e6c45f04ac3e4836eb520e",
+    "https://multivers-dev.github.io/calculator/assets/icons/256.png": "540311ad7a698a0fe69f1590f322146eb10cf912",
+    "https://multivers-dev.github.io/calculator/assets/icons/29.png": "7cd36afdc93604401161c39d001dee174f9f3733",
+    "https://multivers-dev.github.io/calculator/assets/icons/32.png": "d215c54bbebf1bce26786a17b973b87d013d7634",
+    "https://multivers-dev.github.io/calculator/assets/icons/40.png": "c7382689cbd2edeb828c31265edcbd0290def142",
+    "https://multivers-dev.github.io/calculator/assets/icons/50.png": "fba1dd1d1c8ed88df647048b206cc3a2a4b0938d",
+    "https://multivers-dev.github.io/calculator/assets/icons/512.png": "1fb8f3b68eb50942e5a94a17b5fc3a6c9f7f06d3",
+    "https://multivers-dev.github.io/calculator/assets/icons/57.png": "1414db2d69dd7943a46196979d7c11e9c2309b85",
+    "https://multivers-dev.github.io/calculator/assets/icons/58.png": "7030cec6c4fe97b11b2d699f930555505bb1128e",
+    "https://multivers-dev.github.io/calculator/assets/icons/60.png": "0dc86a1f61e04658b14df404ca54620098081763",
+    "https://multivers-dev.github.io/calculator/assets/icons/64.png": "80302bafcd664ab674791e8bd10170114f780ff3",
+    "https://multivers-dev.github.io/calculator/assets/icons/72.png": "d2b794f3f08b6e65911af1d3707c5c59eb6b74e6",
+    "https://multivers-dev.github.io/calculator/assets/icons/76.png": "697bb2ffd89413e30d4bc8a1d9247519a4f1c1e1",
+    "https://multivers-dev.github.io/calculator/assets/icons/80.png": "7a48f7b1c76ee263045bb32fc871175e29739fd0",
+    "https://multivers-dev.github.io/calculator/assets/icons/87.png": "cfbf93a13e4eacee729ca0dc02355d6ec5d0e9f8",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "https://multivers-dev.github.io/calculator/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://multivers-dev.github.io/calculator/favicon.ico": "85ac3329a863d2a2f49455da6659ddc523d5eb81",
+    "https://multivers-dev.github.io/calculator/main-37QYOWZS.js": "8649b8c04dfed9111a9a152118f12bbb69be5da1",
+    "https://multivers-dev.github.io/calculator/manifest.webmanifest": "32f54329d64d69fbeae14d53ae2dcdc7d9616b8f",
+    "https://multivers-dev.github.io/calculator/polyfills-TMVK3KFA.js": "fda1c82c5c620f1fa442f687b3df45a037f6fcc9",
+    "https://multivers-dev.github.io/calculator/styles-APOZRMRD.css": "afd2a230b82a48800b2dae7c6ca865aec594913d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
